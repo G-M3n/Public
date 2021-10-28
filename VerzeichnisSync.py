@@ -1,6 +1,6 @@
 import os.path, os, config
 from ftplib import FTP_TLS, error_perm
-directorypath = '/home/priokom/Documents/Test/'
+directorypath = config.path
 log=""
 try:
     ftp = FTP_TLS(config.url)
